@@ -7,12 +7,15 @@
     <title>Focus Timer - Pomodoro</title>
 
     <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
         <button id="toggle-mode">
             <span>Ativar / desativar light mode</span>
+            <i class="ph-bold ph-sun"></i>
+            <i class="ph-bold ph-moon"></i>
         </button>
         <section id="timer">
             <span id="minutes">25</span>
@@ -21,12 +24,12 @@
         </section>
 
         <section id="controls">
-            <button>play</button>
-            <button>pause</button>
-            <button>set</button>
-            <button>stop</button>
-            <button>musicon</button>
-            <button>musicoff</button>
+            <button class="ph ph-play-circle"></button>
+            <button class="ph ph-pause-circle"></button>
+            <button class="ph ph-timer"></button>
+            <button class="ph ph-stop-circle"></button>
+            <button class="ph ph-speaker-none"></button>
+            <button class="ph ph-speaker-high"></button>
         </section>
 
     </div>
