@@ -6,7 +6,7 @@
 
 
 :root {
-    --hue: 194;
+    --hue: 10;
     --bg-color: hsl(var(--hue), 5%, 7%);
     --text-color: hsl(var(--hue), 40%, 98%);
     --primary-color: hsl(var(--hue), 100%, 63%);
